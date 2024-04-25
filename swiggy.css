@@ -1,0 +1,157 @@
+
+.navbar
+{
+  display: flex;
+  justify-content: space-around;
+}
+.nav-right
+{
+  line-height: 3;
+  display: inline;
+}
+.nav-right a
+{
+  text-decoration:none;
+  padding: 10px;
+  color: orangered;
+  font-weight: lighter;
+  transition: 1s;
+}
+a:hover
+{
+  background-color: orangered;
+  border-radius: 25px;
+  color: white;
+
+}
+.btn
+{
+    background-color: orangered;
+}
+.btn:hover
+{
+    color:white;
+    background-color: orangered;
+    border: none;
+}
+
+
+.row
+{
+    display: flex;
+    padding: 10px;
+
+}
+.card
+{
+    margin-right: 20px;
+}
+.row
+{
+    margin-top: 30px;
+}
+.flex
+{
+    display: flex;
+}
+.row-3
+{
+display: flex;
+
+}
+.picture
+{
+    padding: 5px;
+}
+.second-menu a
+{
+    line-height: 2;
+    text-decoration:none;
+    color: orangered;
+    font-weight: lighter;
+    transition: 1s;
+    padding:10px
+
+}
+a:hover{
+    color: white;
+}
+.blinker
+{
+    animation: blinker 1.5s linear infinite;
+
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+.outter,.sec-layer,.third-layer
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.inner
+{
+    padding: 10px;
+}
+.detail
+{
+
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.contact-detail
+{
+    float: left;
+    
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.legal
+{
+    float: left;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.delivery
+{
+float: left;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+li{
+    list-style-type: none;
+}
+.base
+{
+    display: flex;
+    height: 50vh;
+    background-color: orangered;
+}
+.footer
+{
+    color:black;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+
+
+}
+.details:hover
+{
+    color: white;
+}
+.mail
+{
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
